@@ -1,7 +1,7 @@
 {
   "name": "ristretto-syntax",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Atom dark syntax theme heavily inspired by espresso-libre.",
   "author": {
     "name": "Victor Ortiz",
