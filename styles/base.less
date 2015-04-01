@@ -1,0 +1,221 @@
+@import "syntax-variables";
+
+atom-text-editor, :host {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+atom-text-editor .gutter, :host .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+atom-text-editor .gutter .line-number.cursor-line, :host .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .gutter .line-number.cursor-line-no-selection, :host .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .wrap-guide, :host .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+atom-text-editor .indent-guide, :host .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+atom-text-editor .invisible-character, :host .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+atom-text-editor .search-results .marker .region, :host .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+atom-text-editor .search-results .marker.current-result .region, :host .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+atom-text-editor.is-focused .cursor, :host(.is-focused) .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
+  background-color: #3A312C;
+}
+
+.comment {
+  font-style: italic;
+  color: #70B880;
+}
+
+.keyword, .storage {
+  font-weight: bold;
+  color: #43A8ED;
+}
+
+.constant.numeric {
+  color: #44AA43;
+}
+
+.constant {
+  font-weight: bold;
+  color: #C5656B;
+}
+
+.constant.language {
+  font-weight: bold;
+  color: #585CF6;
+}
+
+.variable.language, .variable.other {
+  color: #318495;
+}
+
+.string {
+  color: #049B0A;
+}
+
+.constant.character.escape, .string .source {
+  color: #2FE420;
+}
+
+.meta.preprocessor {
+  color: #1A921C;
+}
+
+.keyword.control.import {
+  font-weight: bold;
+  color: #9AFF87;
+}
+
+.entity.name.function, .keyword.other.name-of-parameter.objc {
+  font-weight: bold;
+  color: #FF9358;
+}
+
+.entity.name.type {
+  text-decoration: underline;
+}
+
+.entity.other.inherited-class {
+  font-style: italic;
+}
+
+.variable.parameter {
+  font-style: italic;
+}
+
+.storage.type.method {
+  color: #8B8E9C;
+}
+
+.meta.section .entity.name.section, .declaration.section .entity.name.section {
+  font-style: italic;
+}
+
+.support.function {
+  font-weight: bold;
+  color: #7290D9;
+}
+
+.support.class, .support.type {
+  font-weight: bold;
+  color: #6D79DE;
+}
+
+.support.constant {
+  font-weight: bold;
+  color: #00AF0E;
+}
+
+.support.variable {
+  font-weight: bold;
+  color: #2F5FE0;
+}
+
+.keyword.operator.js {
+  color: #687687;
+}
+
+.invalid {
+  color: #FFFFFF;
+  background-color: #990000;
+}
+
+.invalid.deprecated.trailing-whitespace {
+  background-color: #FFD0D0;
+}
+
+.text .source, .string.unquoted {
+  background-color: rgba(245, 170, 119, 0.19);
+}
+
+.meta.tag.preprocessor.xml {
+  color: #8F7E65;
+}
+
+.meta.tag.sgml.doctype {
+  color: #888888;
+}
+
+.string.quoted.docinfo.doctype.DTD {
+  font-style: italic;
+}
+
+.meta.tag, .declaration.tag {
+  color: #43A8ED;
+}
+
+.entity.name.tag {
+  font-weight: bold;
+}
+
+.entity.other.attribute-name {
+  font-style: italic;
+}
+
+.meta.diff.header.from-file {
+  color: #ffffff;
+  background-color: #77aadd;
+}
+
+.markup.deleted.diff {
+  color: #F92672;
+}
+
+.markup.inserted.diff {
+  color: #11aa11;
+}
+
+.markup.dichanged.diff {
+  color: #ff2222;
+}
+
+.markup.deleted.git_gutter {
+  color: #F92672;
+}
+
+.markup.inserted.git_gutter {
+  color: #A6E22E;
+}
+
+.markup.changed.git_gutter {
+  color: #967EFB;
+}
+
+.markup.ignored.git_gutter {
+  color: #565656;
+}
+
+.markup.untracked.git_gutter {
+  color: #565656;
+}

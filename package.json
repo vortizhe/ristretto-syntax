@@ -7,5 +7,10 @@
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
-  }
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/vortizhe/ristreto-syntax/issues"
+  },
+  "homepage": "https://github.com/vortizhe/ristreto-syntax",
 }
