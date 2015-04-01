@@ -1,5 +1,5 @@
-# ristretto-syntax theme
+# Ristretto Syntax theme
 
-A short description of your theme.
+Atom dark syntax theme heavily inspired by espresso-libre.
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+![Ristretto Theme screenshot](https://cloud.githubusercontent.com/assets/777846/6951720/93978186-d8bd-11e4-9644-8ba6fd728003.png)
