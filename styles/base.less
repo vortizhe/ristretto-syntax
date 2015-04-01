@@ -25,6 +25,7 @@ atom-text-editor .wrap-guide, :host .wrap-guide {
 
 atom-text-editor .indent-guide, :host .indent-guide {
   color: @syntax-indent-guide-color;
+
 }
 
 atom-text-editor .invisible-character, :host .invisible-character {
@@ -49,7 +50,7 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
 }
 
 atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
-  background-color: #3A312C;
+  background-color: #2C2723;
 }
 
 .comment {
@@ -150,8 +151,8 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   background-color: #FFD0D0;
 }
 
-.text .source, .string.unquoted {
-  background-color: rgba(245, 170, 119, 0.19);
+.text .source, .string.unquoted, .text .embedded {
+  background-color: rgba(245, 170, 119, 0.05);
 }
 
 .meta.tag.preprocessor.xml {
