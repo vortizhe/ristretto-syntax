@@ -1,0 +1,11 @@
+{
+  "name": "ristreto-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "Atom dark syntax theme heavily inspired by espresso-libre.",
+  "repository": "https://github.com/vortizhe/ristreto-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  }
+}
