@@ -1,5 +1,5 @@
 {
-  "name": "ristreto-syntax",
+  "name": "ristretto-syntax",
   "theme": "syntax",
   "version": "0.1.0",
   "description": "Atom dark syntax theme heavily inspired by espresso-libre.",
@@ -8,14 +8,14 @@
     "email": "kespers@gmail.com",
     "url": "https://github.com/vortizhe"
   },
-  "repository": "https://github.com/vortizhe/ristreto-syntax",
+  "repository": "https://github.com/vortizhe/ristretto-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/vortizhe/ristreto-syntax/issues"
+    "url": "https://github.com/vortizhe/ristretto-syntax/issues"
   },
-  "homepage": "https://github.com/vortizhe/ristreto-syntax"
+  "homepage": "https://github.com/vortizhe/ristretto-syntax"
 }
