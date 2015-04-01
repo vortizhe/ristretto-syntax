@@ -3,6 +3,11 @@
   "theme": "syntax",
   "version": "0.0.0",
   "description": "Atom dark syntax theme heavily inspired by espresso-libre.",
+  "author": {
+    "name": "Victor Ortiz",
+    "email": "kespers@gmail.com",
+    "url": "https://github.com/vortizhe"
+  },
   "repository": "https://github.com/vortizhe/ristreto-syntax",
   "license": "MIT",
   "engines": {
@@ -12,5 +17,5 @@
   "bugs": {
     "url": "https://github.com/vortizhe/ristreto-syntax/issues"
   },
-  "homepage": "https://github.com/vortizhe/ristreto-syntax",
+  "homepage": "https://github.com/vortizhe/ristreto-syntax"
 }
